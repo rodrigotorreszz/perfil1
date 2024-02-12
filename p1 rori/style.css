@@ -1,0 +1,117 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #23967F;
+  }
+  
+  .header {
+    background-color: #23967F;
+    padding: 1em ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title h1 {
+    margin: 0;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    color: #7DAF9C;
+  }
+  
+  .content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #5B4B49;
+  }
+  
+  .empresasesa-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .empresasesa {
+    width: 250px;
+    background-color: #5B4B49;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .empresasesa img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .empresasesa h2 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .empresasesa p {
+    font-size: 14px;
+  }
+
+  .emprendedores-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 100px 100px 100px;
+  }
+  
+  .emprendedor {
+    width: 300px;
+    color: black;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .emprendedor img {
+    max-width: 70%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .emprendedor h2 {
+    margin: 10px 0;
+    color: #333;
+    text-align: justify;
+  }
+  
+  .emprendedor p {
+    font-size: 14px;
+    text-align: justify;
+  }
