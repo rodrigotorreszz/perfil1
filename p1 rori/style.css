@@ -47,39 +47,6 @@ body {
     background-color: #ffffff;
     color: #5B4B49;
   }
-  
-  .empresasesa-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px;
-  }
-  
-  .empresasesa {
-    width: 250px;
-    background-color: #5B4B49;
-    color: black;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .empresasesa img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .empresasesa h2 {
-    margin: 10px 0;
-    color: #333;
-  }
-  
-  .empresasesa p {
-    font-size: 14px;
-  }
 
   .emprendedores-container {
     display: flex;
@@ -98,6 +65,15 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
+
+  .emprendedor2 {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
   
   .emprendedor img {
     max-width: 70%;
